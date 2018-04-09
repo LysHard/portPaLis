@@ -7,51 +7,9 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "bf882b30900da12fca090d9796bc3030",
-      "css": "mail",
-      "code": 59392,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "ccc2329632396dc096bb638d4b46fb98",
-      "css": "mail-alt",
-      "code": 61664,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "f805bb95d40c7ef2bc51b3d50d4f2e5c",
-      "css": "th-list",
-      "code": 59393,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "26613a2e6bc41593c54bead46f8c8ee3",
-      "css": "file-code",
-      "code": 61897,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "e44601720c64e6bb6a2d5cba6b0c588c",
-      "css": "volume-off",
-      "code": 59394,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "76857a03fbaa6857fe063b6c25aa98ed",
-      "css": "volume-up",
-      "code": 59395,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "ccddff8e8670dcd130e3cb55fdfc2fd0",
-      "css": "down-open",
-      "code": 59396,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "2d6150442079cbda7df64522dc24f482",
-      "css": "down-dir",
-      "code": 59397,
+      "uid": "5e0a374728ffa8d0ae1f331a8f648231",
+      "css": "github",
+      "code": 61715,
       "src": "fontawesome"
     },
     {
@@ -61,63 +19,9 @@
       "src": "fontawesome"
     },
     {
-      "uid": "e7cb72a17f3b21e3576f35c3f0a7639b",
-      "css": "git",
-      "code": 61907,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
-      "css": "facebook",
-      "code": 61594,
-      "src": "fontawesome"
-    },
-    {
       "uid": "dff942d95eb1b3f1be140e622d0a7c74",
       "css": "soundcloud",
       "code": 61886,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "a9862b9d5197886c1ad693ecd7120b31",
-      "css": "youtube",
-      "code": 61799,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
-      "css": "user",
-      "code": 59398,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "f8aa663c489bcbd6e68ec8147dca841e",
-      "css": "folder",
-      "code": 59399,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "c95735c17a10af81448c7fed98a04546",
-      "css": "folder-open",
-      "code": 59400,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "3a26448b711645ba1abfc86c1a6e2f30",
-      "css": "coffee",
-      "code": 61684,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
-      "css": "instagram",
-      "code": 61805,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "fb4794d89b77ab712ad56c0dc4c76c6b",
-      "css": "spotify",
-      "code": 61884,
       "src": "fontawesome"
     }
   ]
