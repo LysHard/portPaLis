@@ -10,11 +10,7 @@ a{
 		display: block;
 		text-transform:none;
 }
-a:hover{
-		color:#cc7626;
-		text-decoration: none;
-		display: block;
-		text-transform:none;}
+
 a:visited{
 		color:#ff6505;
 		text-decoration: none;
