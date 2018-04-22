@@ -74,15 +74,21 @@ a:active{
     bottom: 0px;}
 
 #board{
-    background: linear-gradient(to bottom, #999999, #666666);
+    background: linear-gradient(to bottom, #777777, #444444);
     top:0;
-    height: 100vh;
+    height: 75vh;
     width: 1024px;
-    min-width: 80%;
-    min-height: 50%;
     margin: 0 auto;
-
 	}
+
+.tab{
+    background: linear-gradient(to bottom, #444444, #111111);
+    margin: 0 auto;
+    padding-top: 5vh;
+    width: 1024px;
+	height:75vh;
+    background-color:#6d6d6d;
+}
 .nl{
 	clear:both;
 	}
@@ -170,7 +176,7 @@ img{
     justify-content: center;
 }
 #meProfil{
-	margin:10px 3px;
+	margin:10px 5px;
 	background-image: url("img/aboutMe.jpg");
     background-size: cover;
 	text-align:center;
@@ -183,7 +189,7 @@ img{
 	box-shadow: 0px 0px 15px 4px #1f1f1f;
 	}
 #meProfil:hover{
-	margin:10px 3px;
+	margin:10px 5px;
     background-image: url("img/aboutMe.jpg");
     background-size: cover;
 	text-align:center;
@@ -197,7 +203,7 @@ img{
 	box-shadow: 0px 0px 15px 4px #1f1f1f;
 	}
 #meHobby{
-	margin:10px 3px;
+	margin:10px 5px;
 	background-image: url("img/hobby.jpg");
     background-size: cover;
 	text-align:bottom;
@@ -210,7 +216,7 @@ img{
 	box-shadow: 0px 0px 15px 4px #1f1f1f;
 	}
 #meHobby:hover{
-	margin:10px 3px;
+	margin:10px 5px;
 	background-image: url("img/hobby.jpg");
     background-size: cover;
 	text-align:center;
@@ -224,7 +230,7 @@ img{
 	box-shadow: 0px 0px 15px 4px #1f1f1f;
 	}
 #meProject{
-	margin:10px 3px;
+	margin:10px 5px;
 	background-image: url("img/project.jpg");
     background-size: cover;
 	text-align:center;
@@ -237,7 +243,7 @@ img{
 	box-shadow: 0px 0px 15px 4px #1f1f1f;
 	}
 #meProject:hover{
-	margin:10px 3px;
+	margin:10px 5px;
 	background-image: url("img/project.jpg");
     background-size: cover;
 	text-align:center;
@@ -252,14 +258,7 @@ img{
 	}
 
 	/*strona główna*/
-.tab{
-    background: linear-gradient(to bottom, #666666, #111111);
-    margin: 0 auto;
-    padding-top: 20vh;
-    width: 1024px;
-	height:80vh;
-    background-color:#6d6d6d;
-}
+
 #rectangle{
     font-size: 2vh;
 }
@@ -295,17 +294,26 @@ img{
 
 
 
-
-
-
-
-#frontside {
-    color: "beige";
-    top:0;
-    height: 100vh;
-    width: 1024px;
-    min-width: 80%;
-    min-height: 50%;
-    margin: 0 auto;
-    z-index: 3;
+/* -------------------------------------- slajdy do przełączania -----------------------------------------*/
+#slide-viewer{
+    position: relative;
+    overflow: hidden;
+    height: 65vh;
 }
+
+.slide-group{
+    width: 90%;
+    height: 90%;
+    position: relative;
+}
+
+.slide{
+    width: 95%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+.slide:first-child {
+    display: block;
+}
+/* -------------------------------------- end slajdy do przełączania --------------------------------------*/

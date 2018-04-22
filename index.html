@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="style.css" type ="text/css"/>
 		<link rel="stylesheet" href="font\css\fontello.css" type ="text/css"/>
 
-		<script type="text/javascript" src="js/timer.js">
+		<script type="text/javascript" src="js/slider.js">
 		</script>
 	</head>
 
@@ -17,11 +17,12 @@
 <body >
 
 
+    <!-- pasek menu przyklejony do górnej krawędzi -->
     <div id="topbar">
-            <div class="topLogo">
+        <div class="topLogo">
                 <a href="#top"><div id="lisimg"><img src="img/LysHard.png" alt="LysHard" title="Strona główna" /></div></a>
                 <a href="#top"><div id="lis"></div></a>
-            </div>
+        </div>
             <div class="topLogo">
 
                 <div class="socjalIcon">
@@ -51,29 +52,45 @@
         <div class="nl"></div>
 
     </div>
+    <!-- koniec paska w górnej krawedzi-->
 
 
-<!-- pasek menu przyklejony do górnej krawędzi -->
+    <!-- pierwsza strona -->
+    <div id="board">
 
-<!--  logo -->
+ -
+                <div id="slide-viewer">
+                    <div class="slider-group">
+                        <div class="slide slide-1">a</div>
+                        <div class="slide slide-2">b</div>
+                        <div class="slide slide-3">c</div>
+                    </div>
+                </div>
+                <div class="slide-buttons"></div>
+        -
+    </div>
+    <div class="nl"></div>
+    <!-- koniec pierwszej strony-->
 
-        <div id="board">
 
-        </div>
-
-
-
+    <!-- wiecej informacji-->
+    <div class="tab">
+    <div id="aboutme">
+        <a href="#top"><div id="meProfil"></div></a>
+        <a href="#top"><div id="meProject"></div></a>
+        <a href="#top"><div id="meHobby"></div></a>
         <div class="nl"></div>
+    </div>
+    </div>
 
-            <div class="tab">
-				<div id="aboutme">
-					<a href="#top"><div id="meProfil"></div></a>
-					<a href="#top"><div id="meProject"></div></a>
-					<a href="#top"><div id="meHobby"></div></a>
-					<div class="nl"></div>
-				</div>
+                <!-- okono modalne do infomracji
+                <div class="modalWindow">
 
-        </div>
+                </div>
+                -->
+
+
+    <!-- koniec kary wiecej informacji -->
             <div class="margin">
 				<div id="rectangle">2017 &copy; Paweł Lisiak - Portfolio lyshard@gmail.com</div>
 			</div>
